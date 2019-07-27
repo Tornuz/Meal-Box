@@ -1,0 +1,96 @@
+.nav1 {
+    text-align:right;
+    font-family: 'Roboto Slab', serif;
+    padding-left:45%;
+}
+.nav1 :hover{
+    color:red!important;
+}
+
+.card-deck {
+
+}
+
+#card1 {
+    
+    display: inline-block;
+   
+   
+
+    /*position: revert;*/
+}
+#img1 {
+
+}
+
+h5 {
+    color: blueviolet;
+}
+
+#card2 {
+    
+    display: inline-block;
+    width: 47rem;
+    height: 52rem;
+    
+    background-image: url("pics/clean-box-img.jpg");
+    backface-visibility: revert;
+    line-height: 1cm;
+}
+
+#h5 {
+   
+    font-family: 'Titan One', cursive;
+    text-align:center;
+    padding-top: 4%
+}
+
+html, body {
+
+    overflow-x: hidden;
+}
+.sub1{
+    padding-bottom:4%;
+}
+#icons {
+   
+}
+
+#submit {
+    
+}
+
+#input1 {
+    
+    
+    text-align: center;
+}
+
+#div2 {
+    
+    text-align:center;
+
+}
+
+
+/* 16px @ 480px increasing to 32px @ 1920px */
+@media (min-width: 480px) {
+  .cont1 {
+    font-size: calc(1rem + ((1vw - 4.8px) * 1.1111));
+    /* Where: * 1.1111 = 100 * font_Size_Difference / viewport_Width_Difference */
+  }
+}
+/* Prevent font scaling beyond this breakpoint */
+@media (min-width: 1920px) {
+  .cont1{
+    font-size: 32px;
+  }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+h5 {
+    font-family: 'Titan One', cursive;
+}
+
+#cont1 {
+    display: inline-block;
+    line-height: 1cm;
+    padding-top:5%;
+    padding-left:7%;
+ 
+}
+#icons{
+    text-align:center;
+}
+html, body {
+
+    overflow-x: hidden;
+}
+#img1 {
+    display: inline-block;
+   
+}

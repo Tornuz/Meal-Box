@@ -1,0 +1,164 @@
+#navbarSupportedContent {
+    margin-left: 45%;
+    font-family: 'Roboto Slab', serif;
+}
+
+html, body {
+
+    overflow-x: hidden;
+}
+
+.centered {
+    position: absolute;
+    top: 54%;
+    left: 40%;
+    text-align:center;
+
+}
+
+.centered{
+
+ 
+    
+    font-family: 'Titan One', cursive;
+    z-index: auto;
+
+}
+
+#homeaboutcontent {
+    margin-bottom: 10%;
+}
+
+#card1 {
+    margin-top: 10px;
+}
+
+#icons {
+    text-align:center;
+     
+  
+}
+
+#h5 {
+  
+   text-align:center;
+   padding-top:2%;
+   padding-bottom:2%;
+    font-family: 'Titan One', cursive;
+}
+
+#input1 {
+   text-align:center;
+
+    
+}
+
+#div2 {
+   text-align:center;
+}
+
+#eat {
+    /*margin-top: 1cm;*/
+   padding-left: 30%;
+   padding-right:20%;
+    font-family: 'Titan One', cursive;
+}
+
+#eatcontent {
+    /*margin-top: 2cm;*/
+    text-align:left;
+    padding-left: 20%;
+    padding-right: 20%;
+    line-height: 2.5em;
+    font-family: 'Roboto Slab', serif;
+}
+
+.card-title {
+    font-family: 'Titan One', cursive;
+}
+
+.card-text {
+    font-family: 'Roboto Slab', serif;
+    line-height: .9cm;
+}
+
+#clean {
+    background-color: #bbdefb;
+
+}
+
+#slim {
+    background-color: #e6ee9c;
+}
+
+#bulk {
+    background-color: #ffcc80;
+
+}
+
+#gluten {
+    background-color: #f48fb1;
+}
+
+#food {
+    margin-left: 4cm;
+    width: 1280px;
+    height: 640px;
+}
+#bb{
+    margin-top:2cm;
+    margin-left:1cm;
+}
+
+#cb {
+    margin-top: 2cm;
+    margin-left:1cm;
+}
+
+#sb {
+    margin-top: 2cm;
+    margin-left:1cm;
+}
+
+#gb {
+    margin-top: 2cm;
+    margin-left:1cm;
+    text-align:inline;
+   
+}
+.parallax {
+  /* The image used */
+  background-image: url("pics/home_banner.jpg");
+
+  /* Set a specific height */
+  height: 781px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 200px) {
+  .centered {
+    font-size: calc(1rem + ((1vw - 2px) * 5.1395));
+    /* Where: * 2.5581 = 100 * font_Size_Difference / viewport_Width_Difference */
+  }
+}
+/* Prevent font scaling beyond this breakpoint */
+@media (min-width: 1920px) {
+  .centered {
+    font-size: 60px;
+  }
+}
